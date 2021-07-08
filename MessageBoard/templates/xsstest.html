@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {{ data }}
+    <form class="form-horizontal" method="get" action="/xsstest">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" name="title" placeholder="标题"
+                       style="width: 600px;height:30px;">
+            </div>
+        </div>
+        <div class="form-group">
+            <div align="center">
+                <button type="submit" class="btn btn-default">提交</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}

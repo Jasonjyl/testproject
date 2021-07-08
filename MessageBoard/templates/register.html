@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>注册页面</h1>
+    <form method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">用户名</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="username" placeholder="用户名">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">密码</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="密码">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">确认密码</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="repassword" placeholder="确认密码">
+        </div>
+        <button type="submit" class="btn btn-default">注册</button>
+    </form>
+{% endblock %}

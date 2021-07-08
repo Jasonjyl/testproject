@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>更新页面</h1>
+    {% for msg in get_flashed_messages() %}
+        <h1>{{ msg }}</h1>
+    {% endfor %}
+    <form method="post" action="{{ url_for('user.update') }}" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="exampleInputEmail1">用户名</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="username"
+                   placeholder="{{ user.username }}">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">密码</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="密码">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">确认密码</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="repassword" placeholder="确认密码">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">新密码</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="newpassword" placeholder="新密码">
+        </div>
+        <label>选择头像</label>
+        <p><input type="file" id="exampleInputFile" name="icon"></p>
+        <p>
+            <img src="{% if user.icon %} {{ url_for('static', filename=user.icon) }} {% else %} {{ url_for('static', filename='images/001.JPG') }}{% endif %}"
+                 height=40% width=50%>
+        </p>
+        <button type="submit" class="btn btn-default">提交</button>
+    </form>
+{% endblock %}
