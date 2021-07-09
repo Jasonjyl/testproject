@@ -37,3 +37,199 @@ INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 17:59:41] "GET / HTTP/1.1" 200 
 INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 17:59:41] "GET / HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 17:59:41] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
 INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 17:59:41] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:225  * Restarting with stat
+WARNING _internal.py:225  * Debugger is active!
+INFO _internal.py:225  * Debugger PIN: 980-531-622
+INFO log.py:117 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:117 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:117 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:117 [generated in 0.00022s] {}
+INFO log.py:117 [generated in 0.00022s] {}
+INFO log.py:117 SELECT DATABASE()
+INFO log.py:117 SELECT DATABASE()
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 [generated in 0.00032s] {}
+INFO log.py:117 [generated in 0.00032s] {}
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 [generated in 0.00038s] {'pk_1': 1}
+INFO log.py:117 [generated in 0.00038s] {'pk_1': 1}
+INFO log.py:117 ROLLBACK
+INFO log.py:117 ROLLBACK
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:37] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:37] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:38] "GET /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:38] "GET /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:38] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:38] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:48] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:48] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:50] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:50] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:50] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 20:59:50] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:225  * Restarting with stat
+WARNING _internal.py:225  * Debugger is active!
+INFO _internal.py:225  * Debugger PIN: 980-531-622
+INFO log.py:117 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:117 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:117 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:117 [generated in 0.00033s] {}
+INFO log.py:117 [generated in 0.00033s] {}
+INFO log.py:117 SELECT DATABASE()
+INFO log.py:117 SELECT DATABASE()
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 [raw sql] {}
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 [generated in 0.00028s] {}
+INFO log.py:117 [generated in 0.00028s] {}
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 [generated in 0.00035s] {'pk_1': 1}
+INFO log.py:117 [generated in 0.00035s] {'pk_1': 1}
+INFO log.py:117 ROLLBACK
+INFO log.py:117 ROLLBACK
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:38] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:38] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:41] "GET /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:41] "GET /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:41] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:41] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:48] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:48] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:48] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:48] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:56] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:56] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:56] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:21:56] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:09] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:09] "POST /login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:09] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:09] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:13] "GET /register HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:13] "GET /register HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:13] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:13] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 INSERT INTO user (username, password, icon) VALUES (%(username)s, %(password)s, %(icon)s)
+INFO log.py:117 INSERT INTO user (username, password, icon) VALUES (%(username)s, %(password)s, %(icon)s)
+INFO log.py:117 [generated in 0.00031s] {'username': 'testuser', 'password': 'testuser', 'icon': None}
+INFO log.py:117 [generated in 0.00031s] {'username': 'testuser', 'password': 'testuser', 'icon': None}
+INFO log.py:117 ROLLBACK
+INFO log.py:117 ROLLBACK
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:22] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 INSERT INTO user (username, password, icon) VALUES (%(username)s, %(password)s, %(icon)s)
+INFO log.py:117 INSERT INTO user (username, password, icon) VALUES (%(username)s, %(password)s, %(icon)s)
+INFO log.py:117 [cached since 11.39s ago] {'username': 'testuser10', 'password': 'testuser10', 'icon': None}
+INFO log.py:117 [cached since 11.39s ago] {'username': 'testuser10', 'password': 'testuser10', 'icon': None}
+INFO log.py:117 COMMIT
+INFO log.py:117 COMMIT
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 [generated in 0.00024s] {'pk_1': 5}
+INFO log.py:117 [generated in 0.00024s] {'pk_1': 5}
+INFO log.py:117 ROLLBACK
+INFO log.py:117 ROLLBACK
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 BEGIN (implicit)
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 SELECT message.id AS message_id, message.title AS message_title, message.`text` AS message_text, message.`time` AS message_time, message.author_id AS message_author_id 
+FROM message
+INFO log.py:117 [cached since 55.09s ago] {}
+INFO log.py:117 [cached since 55.09s ago] {}
+INFO log.py:117 [cached since 55.09s ago] {}
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 [cached since 55.09s ago] {'pk_1': 1}
+INFO log.py:117 [cached since 55.09s ago] {'pk_1': 1}
+INFO log.py:117 [cached since 55.09s ago] {'pk_1': 1}
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 SELECT user.id AS user_id, user.username AS user_username, user.password AS user_password, user.icon AS user_icon 
+FROM user 
+WHERE user.id = %(pk_1)s
+INFO log.py:117 [cached since 55.09s ago] {'pk_1': '5'}
+INFO log.py:117 [cached since 55.09s ago] {'pk_1': '5'}
+INFO log.py:117 [cached since 55.09s ago] {'pk_1': '5'}
+INFO log.py:117 ROLLBACK
+INFO log.py:117 ROLLBACK
+INFO log.py:117 ROLLBACK
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "[33mGET /images/style.css HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "GET /static/images/001.JPG HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "GET /static/images/001.JPG HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [08/Jul/2021 22:22:33] "GET /static/images/001.JPG HTTP/1.1" 200 -
